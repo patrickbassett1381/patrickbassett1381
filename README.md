@@ -1,20 +1,25 @@
 # Hi, I'm Pat Bassett 👋
 
-MBA candidate at **UC Berkeley Haas** (Class of 2028) · Chemical engineer (University of Michigan) · ~8 years in strategy and market intelligence across the solar and chemicals industries.
+**Strategy and market-intelligence professional, now a Full-Time MBA candidate at UC Berkeley Haas ('28), building practical AI automations for how I work and study.**
 
-**Before Haas**
-- **Hemlock Semiconductor** (Corning & Shin-Etsu joint venture): led solar market and competitive intelligence for executive leadership, covering the solar value chain from polysilicon to modules, along with trade policy work.
-- **McKinsey & Company**, Chemical practice: growth strategy, competitive intelligence, procurement and operations work for chemical and solar clients.
+I spent 8 years turning messy industry data into decisions: at **McKinsey** (chemicals and solar: growth strategy, competitive intelligence, procurement) and at **Hemlock Semiconductor** (solar polysilicon-to-module market intelligence, commercial strategy, and policy work on IRA, UFLPA and Section 232). I studied **Chemical Engineering at the University of Michigan**.
 
-## Why I'm on GitHub
+At Haas I'm applying the same instinct to my own workflow: find the repetitive work, design a system with one source of truth, and automate it.
 
-I build AI-assisted tools to run my own work. I set the requirements and make the design calls, and Claude is my coding partner. Each repo records the decisions, trade-offs and version history behind the build, because that's the part I own.
+## What I'm building
 
-## Projects
+| Project | What it does | Built with |
+|---|---|---|
+| [**bcourses-to-drive-sync**](https://github.com/patrickbassett1381/bcourses-to-drive-sync) | Every hour, files new course materials from Berkeley's Canvas LMS into the right Google Drive folders, converts Office files for my e-ink tablet, emails a nightly summary, and queues class notes for my AI study pipeline | Google Apps Script, Canvas REST API, Google Drive API |
+| **AI study system** *(write-up coming)* | Claude-based workflows that prep me for each class, digest lecture notes into a running concept log per course, and build exam review materials | Claude skills, scheduled agents, MCP connectors (Canvas, Drive, Granola) |
+| **Coffee-chat prep** *(write-up coming)* | Each weekday morning, researches the people I'm meeting that day and drops a one-page brief into my calendar | Calendly, Google Calendar, Claude scheduled tasks |
 
-| Repo | What it does |
-|---|---|
-| [bcourses-to-drive-sync](https://github.com/patrickbassett1381/bcourses-to-drive-sync) | A Google Apps Script that pulls course files from bCourses (Canvas) every hour, files them into the right Google Drive folders and sends one daily summary. It is the intake layer for an AI study system that builds prep sheets, cheat sheets and practice exams. |
+## How I approach a build
+
+- **Start from the decision, not the tool.** Each project began as a time sink I measured, then scoped.
+- **One source of truth.** Config and IDs live in one place; everything else reads from it.
+- **Fail safe.** Dry-run modes, no deletes, logs and a weekly audit before anything runs unattended.
+- **Document the why.** Each repo explains the design trade-offs, not just the code.
 
 ## What I'm exploring
 
