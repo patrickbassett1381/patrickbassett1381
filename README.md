@@ -1,7 +1,7 @@
 ### Hi, I'm Pat 👋
 Haas MBA '28 · ex-McKinsey and Hemlock Semiconductor · I build AI systems that handle the logistics so I can focus on the judgment.
 
-**[See how I run my MBA →](https://patrickbassett1381.github.io)** (2-min video and system map)
+<!-- **[See how I run my MBA →](https://patrickbassett1381.github.io)** (2-min video and system map)-->
 
 | Project | What it does | Built with |
 |---|---|---|
